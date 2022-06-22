@@ -108,5 +108,58 @@ main form .password-container i #eye{
   background-color: #fff;
   color: #18acfe;
  }
+ main form .links-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+ }
+ main form .link-container span {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+main form .links-container aside {
+  margin-top: 5%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main form .links-container aside i {
+  font-size: 1.6em;
+  background-color: #fff;
+  padding: 8px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  transition: 0.3 ease-in-out;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main form .links-container aside .google {
+  color: #e34133;
+}
+main form .links-container aside .google:hover {
+background-color: #e34133;
+color: #fff;
+}
+main form .links-container aside .linkdin {
+  color: #0a66c2;
+}
+main form .links-container aside .linkdin:hover {
+background-color: #0a66c2;
+color: #fff;
+}
+main form .links-container aside .facebook {
+  color: #14a09f;
+}
+main form .links-container aside .facebook:hover {
+background-color: #14a09f;
+color: #fff;
+}
 
 
