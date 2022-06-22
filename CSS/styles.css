@@ -104,6 +104,9 @@ main form .password-container i #eye{
   cursor: pointer;
   transition: 0.3 ease-in-out;
  }
- 
+ main form button:hover {
+  background-color: #fff;
+  color: #18acfe;
+ }
 
 
