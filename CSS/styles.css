@@ -78,5 +78,32 @@ main form .password-container i {
 main form .password-container i #eye{
   display: none;
  }
+ main form .password-infos {
+  width: 90%;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ main form .password-infos a {
+  transition: 0.2s ease-in-out;
+ }
+ main form .password-infos a:hover {
+  color: #18acfe;
+ }
+ main form button {
+  background-color: #18acfe;
+  width: 90%;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+  margin-top: 10%;
+  font-size: 1.6em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3 ease-in-out;
+ }
+ 
 
 
