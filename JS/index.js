@@ -14,4 +14,8 @@ eyeSlash.style.display = 'block';
 fieldPassword.type = 'password';
 }
 };
-  
+document.getElementById('btn-login').addEventListener('click', function(e) {
+e.preventDefaut();
+alert('Logado!');
+});
+
