@@ -1,7 +1,7 @@
 function showPassword() {
 const eye = document.getElementById('eye');
-const eyeSlash = document.getElementById('eyeslash');
-const fieldPassword = document.getElementById('fiel-password');
+const eyeSlash = document.getElementById('eye-slash');
+const fieldPassword = document.getElementById('field-password');
 
 if(eye.style.display === 'none') {
 eye.style.display = 'block';
