@@ -1,13 +1,17 @@
 function showPassword() {
 const eye = document.getElementById('eye');
-const eyeslash = document.getElementById('eyeslash');
+const eyeSlash = document.getElementById('eyeslash');
 const fieldPassword = document.getElementById('fiel-password');
 
-if () {
-
+if(eye.style.display === 'none') {
+eye.style.display = 'block';
+eyeSlash.style.display = 'none';
+fieldPassword.type = 'text';
 }
 else {
-  
+eye.style.display = 'none';
+eyeSlash.style.display = 'block';
+fieldPassword.type = 'password';
 }
 };
   
